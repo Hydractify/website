@@ -1,0 +1,144 @@
+.kanna-container #kanna {
+    font-size: 200px;
+    font-family: 'Just Another Hand', cursive;
+    color: #E348BF;
+    padding-top: 20px;
+    height: 180px
+}
+
+.kanna-container {
+    background-color: #171717;
+}
+
+.kanna-container #logo-line {
+    width: 42em;
+    border:none;
+    border-top: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kanna-container #bot {
+    font-size: 45px;
+    font-family: Century Gothic;
+    color: white;
+    margin-top: 10px;
+    background: none;
+}
+
+.kanna-container #bot , .kanna-container #kanna {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.kanna-container .icon {
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.kanna-container .name {
+    color: white;
+}
+
+.kanna-container .text {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kanna-container .name , .kanna-container .text , .kanna-container #infotext , .kanna-container span{
+    font-family: Consolas;
+    text-align: center;
+    color: white;
+}
+
+.kanna-container .info-box {
+    border: 5px solid white;
+    border-radius: 35px;
+    float: left;
+    width: calc(33.3% - 60px);
+    height: 351px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 80px;
+}
+
+.kanna-container #group {
+  width: 1100px;
+  height: 487px;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+    /* border: 1px solid red; */
+}
+
+.kanna-container #info {
+  /* border: 1px solid red; */
+  width: 1100px;
+  height: 1000px;
+  margin: auto;
+}
+
+.kanna-container #about , .kanna-container #contact {
+  /* border: 1px solid green; */
+  width: 50%;
+  float: left;
+  margin: 0px 0px;
+  display: inline-block;
+}
+
+.kanna-container #contact {
+  position: relative;
+  text-align: center;
+}
+
+.kanna-container #about {
+  text-align: center;
+}
+
+.kanna-container #infotext {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 16px;
+}
+
+.kanna-container .contacticons {
+    width: 60px;
+    display: block;
+    margin-top: 25px;
+}
+
+.kanna-container #Cult , .kanna-container #Support {font-family: Consolas;font-size: 25px;color: white;/* float: right; *//* position: absolute; *//* top: 62px; *//* left: 150px; */text-decoration: none;/* line-height: 100px; *//* transform: translateY(-50px); */}
+
+.kanna-container #Support {
+  top: 186px;
+}
+
+.kanna-container #discord {
+  width: 80px;
+}
+
+.kanna-container #discord , .kanna-container #email {
+  color: white;
+  fill: red;
+  display: inline-block;
+}
+
+.kanna-container .infouber {
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.kanna-container #kannaimg {
+  height: 180px;
+  width: 220px;
+  top: -100px;
+  right: 75px;
+  position: absolute;
+}
