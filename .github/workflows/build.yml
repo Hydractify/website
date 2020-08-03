@@ -1,0 +1,36 @@
+# Workflow for building the project via react-scripts
+name: react-scripts coverage
+
+on:
+  push:
+    branches:
+      - master
+      - 'releases/**'
+    tags:
+      - v1.*
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Register Problem Matcher
+        run: echo "##[add-matcher].github/tsc.json"
+
+      - name: Build
+        run: yarn build
